@@ -282,7 +282,7 @@ const Home = () => {
                 <a href="/Field" className="hover:text-gray-300 font-semibold text-pink-900">
                   Field
                 </a>
-              </li>
+              </li>  
             </ul>
           </nav>
         </div>
@@ -319,13 +319,41 @@ const Home = () => {
             </p>
 
             {/* Check Live Score Button */}
-            <div className="text-center mt-6">
+               <div className="text-center mt-6">
               <Link
                 to="/livescore"
                 className="inline-block bg-pink-600 text-white font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-pink-900 transition"
               >
                 Check Live Score
               </Link>
+              
+            </div>
+            <div className="text-center mt-6">
+              <Link
+                to="/Scorecard"
+                className="inline-block bg-pink-600 text-white font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-pink-900 transition"
+              >
+                Check scorecard
+              </Link>
+              
+            </div>
+            <div className="text-center mt-6">
+              <Link
+                to="/Squads"
+                className="inline-block bg-pink-600 text-white font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-pink-900 transition"
+              >
+                Check squads
+              </Link>
+              
+            </div>
+            <div className="text-center mt-6">
+              <Link
+                to="/Field"
+                className="inline-block bg-pink-600 text-white font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-pink-900 transition"
+              >
+                Check field
+              </Link>
+              
             </div>
           </div>
         </section>
